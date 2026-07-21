@@ -90,7 +90,7 @@ function Home() {
               </div>
               
               <h2 className="text-lg font-bold text-white mb-1 group-hover:text-primary transition-colors">
-                E-book Mudança Express (27 Dias)
+                Como Ficar Grande na Academia em 1 Mês
               </h2>
               <p className="text-sm text-gray-400 font-medium">
                 Acesso imediato + Bônus Exclusivo
