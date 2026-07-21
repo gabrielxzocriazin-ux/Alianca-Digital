@@ -1,7 +1,7 @@
 import React from 'react';
 import { Route, Switch, Router as WouterRouter } from 'wouter';
 import { motion } from 'framer-motion';
-import { ArrowRight, Sparkles, TrendingUp, BarChart3, MessageCircle, ShoppingBag, Lock } from 'lucide-react';
+import { ArrowRight, Sparkles, TrendingUp, ShoppingBag, Lock } from 'lucide-react';
 
 function Home() {
   const containerVariants = {
@@ -98,53 +98,6 @@ function Home() {
             </div>
           </motion.a>
 
-          {/* Regular Buttons */}
-          <motion.a
-            href="#"
-            variants={itemVariants}
-            whileHover={{ y: -2, scale: 1.01 }}
-            whileTap={{ scale: 0.98 }}
-            className="group w-full bg-[#0A0A0A] border border-white/5 rounded-2xl p-5 flex items-center justify-between transition-all duration-300 hover:bg-[#0E0E0E] hover:border-white/10"
-          >
-            <div className="flex items-center gap-4">
-              <div className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center text-gray-400 group-hover:text-white transition-colors group-hover:bg-white/10">
-                <Sparkles className="w-5 h-5" />
-              </div>
-              <div>
-                <h2 className="text-base font-semibold text-white mb-0.5">
-                  Grupo VIP de Vendas Digitais
-                </h2>
-                <p className="text-xs text-gray-500 font-medium">
-                  Aprenda estratégias diárias de escala
-                </p>
-              </div>
-            </div>
-            <ArrowRight className="w-4 h-4 text-gray-600 group-hover:text-white group-hover:translate-x-1 transition-all" />
-          </motion.a>
-
-          <motion.a
-            href="#"
-            variants={itemVariants}
-            whileHover={{ y: -2, scale: 1.01 }}
-            whileTap={{ scale: 0.98 }}
-            className="group w-full bg-[#0A0A0A] border border-white/5 rounded-2xl p-5 flex items-center justify-between transition-all duration-300 hover:bg-[#0E0E0E] hover:border-white/10"
-          >
-            <div className="flex items-center gap-4">
-              <div className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center text-gray-400 group-hover:text-white transition-colors group-hover:bg-white/10">
-                <BarChart3 className="w-5 h-5" />
-              </div>
-              <div>
-                <h2 className="text-base font-semibold text-white mb-0.5">
-                  Planilha Automática de Controle
-                </h2>
-                <p className="text-xs text-gray-500 font-medium">
-                  Calcule seus lucros e métricas em segundos
-                </p>
-              </div>
-            </div>
-            <ArrowRight className="w-4 h-4 text-gray-600 group-hover:text-white group-hover:translate-x-1 transition-all" />
-          </motion.a>
-
           <motion.a
             href="#"
             variants={itemVariants}
@@ -189,29 +142,6 @@ function Home() {
               </div>
             </div>
             <ArrowRight className="w-4 h-4 text-gray-600 group-hover:text-primary group-hover:translate-x-1 transition-all" />
-          </motion.a>
-
-          <motion.a
-            href="#"
-            variants={itemVariants}
-            whileHover={{ y: -2, scale: 1.01 }}
-            whileTap={{ scale: 0.98 }}
-            className="group w-full bg-[#0A0A0A] border border-white/5 rounded-2xl p-5 flex items-center justify-between transition-all duration-300 hover:bg-[#0E0E0E] hover:border-white/10 mt-2"
-          >
-            <div className="flex items-center gap-4">
-              <div className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center text-gray-400 group-hover:text-[#25D366] transition-colors group-hover:bg-[#25D366]/10">
-                <MessageCircle className="w-5 h-5" />
-              </div>
-              <div>
-                <h2 className="text-base font-semibold text-white mb-0.5">
-                  Dúvidas? Fale Conosco
-                </h2>
-                <p className="text-xs text-gray-500 font-medium">
-                  Atendimento rápido em tempo real
-                </p>
-              </div>
-            </div>
-            <ArrowRight className="w-4 h-4 text-gray-600 group-hover:text-[#25D366] group-hover:translate-x-1 transition-all" />
           </motion.a>
 
         </motion.div>
