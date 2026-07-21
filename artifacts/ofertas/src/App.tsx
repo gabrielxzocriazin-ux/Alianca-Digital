@@ -87,7 +87,7 @@ function Home() {
                 <ArrowRight className="w-5 h-5 text-primary opacity-50 group-hover:opacity-100 group-hover:translate-x-1 transition-all" />
               </div>
               <h2 className="text-lg font-bold text-white mb-1 group-hover:text-primary transition-colors">
-                Como Ser um Vendedor da Kiwify e Vender Rapidamente
+                💰🚀 Como Ser um Vendedor da Kiwify e Vender Rapidamente
               </h2>
               <p className="text-sm text-gray-400 font-medium">
                 Acesso imediato + Bônus Exclusivo
@@ -109,7 +109,7 @@ function Home() {
               </div>
               <div>
                 <h2 className="text-base font-semibold text-white mb-0.5">
-                  Como se Destacar na Academia em 1 Mês
+                  🔥💪 Como se Destacar na Academia em 1 Mês
                 </h2>
                 <p className="text-xs text-gray-500 font-medium">
                   Acesso imediato + Bônus Exclusivo
@@ -132,7 +132,7 @@ function Home() {
               </div>
               <div>
                 <h2 className="text-base font-semibold text-white mb-0.5">
-                  Scripts Secretos de Vendas
+                  🤫🔒 Scripts Secretos de Vendas
                 </h2>
                 <p className="text-xs text-gray-500 font-medium">
                   Acesso exclusivo às melhores abordagens
