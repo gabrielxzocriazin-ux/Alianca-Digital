@@ -50,7 +50,7 @@ function Home() {
           </div>
           
           <h1 className="text-2xl font-bold tracking-tight mb-2 flex items-center gap-2">
-            Sua Marca / Nome
+            Aliança Digital
             <div className="bg-primary/20 p-1 rounded-full text-primary">
               <Sparkles className="w-4 h-4" />
             </div>
