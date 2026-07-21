@@ -87,7 +87,7 @@ function Home() {
                 <ArrowRight className="w-5 h-5 text-primary opacity-50 group-hover:opacity-100 group-hover:translate-x-1 transition-all" />
               </div>
               <h2 className="text-lg font-bold text-white mb-1 group-hover:text-primary transition-colors">
-                Como Ser um Vendedor da Kiwify e Venda Rapidamente
+                Como Ser um Vendedor da Kiwify e Vender Rapidamente
               </h2>
               <p className="text-sm text-gray-400 font-medium">
                 Acesso imediato + Bônus Exclusivo
