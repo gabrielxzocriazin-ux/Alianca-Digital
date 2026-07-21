@@ -40,7 +40,7 @@ function Home() {
           className="flex flex-col items-center text-center mb-10"
         >
           <div className="relative mb-6">
-            <div className="w-28 h-28 relative z-10">
+            <div className="w-44 h-44 relative z-10">
               <img 
                 src="/logo_no_bg.png" 
                 alt="Aliança Digital" 
