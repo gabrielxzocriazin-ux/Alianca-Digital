@@ -1,7 +1,7 @@
 import React from 'react';
 import { Route, Switch, Router as WouterRouter } from 'wouter';
 import { motion } from 'framer-motion';
-import { ArrowRight, Sparkles, TrendingUp, BarChart3, MessageCircle } from 'lucide-react';
+import { ArrowRight, Sparkles, TrendingUp, BarChart3, MessageCircle, ShoppingBag, Lock } from 'lucide-react';
 
 function Home() {
   const containerVariants = {
@@ -143,6 +143,52 @@ function Home() {
               </div>
             </div>
             <ArrowRight className="w-4 h-4 text-gray-600 group-hover:text-white group-hover:translate-x-1 transition-all" />
+          </motion.a>
+
+          <motion.a
+            href="#"
+            variants={itemVariants}
+            whileHover={{ y: -2, scale: 1.01 }}
+            whileTap={{ scale: 0.98 }}
+            className="group w-full bg-[#0A0A0A] border border-white/5 rounded-2xl p-5 flex items-center justify-between transition-all duration-300 hover:bg-[#0E0E0E] hover:border-white/10"
+          >
+            <div className="flex items-center gap-4">
+              <div className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center text-gray-400 group-hover:text-primary transition-colors group-hover:bg-primary/10">
+                <ShoppingBag className="w-5 h-5" />
+              </div>
+              <div>
+                <h2 className="text-base font-semibold text-white mb-0.5">
+                  Como Ser um Vendedor da Kiwify
+                </h2>
+                <p className="text-xs text-gray-500 font-medium">
+                  e Venda Rapidamente
+                </p>
+              </div>
+            </div>
+            <ArrowRight className="w-4 h-4 text-gray-600 group-hover:text-primary group-hover:translate-x-1 transition-all" />
+          </motion.a>
+
+          <motion.a
+            href="#"
+            variants={itemVariants}
+            whileHover={{ y: -2, scale: 1.01 }}
+            whileTap={{ scale: 0.98 }}
+            className="group w-full bg-[#0A0A0A] border border-white/5 rounded-2xl p-5 flex items-center justify-between transition-all duration-300 hover:bg-[#0E0E0E] hover:border-white/10"
+          >
+            <div className="flex items-center gap-4">
+              <div className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center text-gray-400 group-hover:text-primary transition-colors group-hover:bg-primary/10">
+                <Lock className="w-5 h-5" />
+              </div>
+              <div>
+                <h2 className="text-base font-semibold text-white mb-0.5">
+                  Scripts Secretos de Vendas
+                </h2>
+                <p className="text-xs text-gray-500 font-medium">
+                  Acesso exclusivo às melhores abordagens
+                </p>
+              </div>
+            </div>
+            <ArrowRight className="w-4 h-4 text-gray-600 group-hover:text-primary group-hover:translate-x-1 transition-all" />
           </motion.a>
 
           <motion.a
