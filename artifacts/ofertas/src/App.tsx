@@ -40,12 +40,11 @@ function Home() {
           className="flex flex-col items-center text-center mb-10"
         >
           <div className="relative mb-6">
-            <div className="absolute inset-0 bg-primary/20 rounded-full blur-xl animate-pulse"></div>
-            <div className="w-28 h-28 rounded-full p-[2px] bg-gradient-to-b from-primary to-primary/20 relative z-10">
+            <div className="w-28 h-28 relative z-10">
               <img 
-                src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=256&h=256&auto=format&fit=crop" 
-                alt="Sua Marca" 
-                className="w-full h-full object-cover rounded-full border-4 border-[#050505]"
+                src="/logo_no_bg.png" 
+                alt="Aliança Digital" 
+                className="w-full h-full object-contain"
               />
             </div>
           </div>
