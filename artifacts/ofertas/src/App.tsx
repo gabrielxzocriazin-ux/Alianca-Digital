@@ -97,7 +97,9 @@ function Home() {
 
           {/* Regular Button — Academia */}
           <motion.a
-            href="#"
+            href="https://pay.kiwify.com.br/i9Kk8ZT"
+            target="_blank"
+            rel="noopener noreferrer"
             variants={itemVariants}
             whileHover={{ y: -2, scale: 1.01 }}
             whileTap={{ scale: 0.98 }}
