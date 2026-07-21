@@ -1,0 +1,27 @@
+kind = "web"
+previewPath = "/"
+title = "Ofertas Especiais"
+version = "1.0.0"
+id = "artifacts/ofertas"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 22795
+
+[services.development]
+run = "pnpm --filter @workspace/ofertas run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/ofertas", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/ofertas/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "22795"
+BASE_PATH = "/"
