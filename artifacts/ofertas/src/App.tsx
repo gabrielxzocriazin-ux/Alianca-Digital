@@ -69,7 +69,7 @@ function Home() {
           className="w-full flex flex-col gap-4"
         >
           
-          {/* Featured Hero Button */}
+          {/* Featured Hero Button — Kiwify */}
           <motion.a
             href="#"
             variants={itemVariants}
@@ -77,9 +77,7 @@ function Home() {
             whileTap={{ scale: 0.98 }}
             className="relative group w-full bg-[#0A0A0A] border border-primary/30 rounded-2xl p-5 overflow-hidden transition-all duration-300 hover:border-primary/60 hover:shadow-[0_0_30px_-5px_rgba(0,255,102,0.15)]"
           >
-            {/* Animated gradient background sweep */}
             <div className="absolute inset-0 bg-gradient-to-r from-primary/0 via-primary/5 to-primary/0 -translate-x-[100%] group-hover:translate-x-[100%] transition-transform duration-1000 ease-in-out" />
-            
             <div className="relative z-10 flex flex-col">
               <div className="flex items-center justify-between mb-3">
                 <span className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-primary/10 text-primary text-[10px] font-bold uppercase tracking-wider border border-primary/20">
@@ -88,9 +86,8 @@ function Home() {
                 </span>
                 <ArrowRight className="w-5 h-5 text-primary opacity-50 group-hover:opacity-100 group-hover:translate-x-1 transition-all" />
               </div>
-              
               <h2 className="text-lg font-bold text-white mb-1 group-hover:text-primary transition-colors">
-                Como Ficar Grande na Academia em 1 Mês
+                Como Ser um Vendedor da Kiwify e Venda Rapidamente
               </h2>
               <p className="text-sm text-gray-400 font-medium">
                 Acesso imediato + Bônus Exclusivo
@@ -98,6 +95,7 @@ function Home() {
             </div>
           </motion.a>
 
+          {/* Regular Button — Academia */}
           <motion.a
             href="#"
             variants={itemVariants}
@@ -111,10 +109,10 @@ function Home() {
               </div>
               <div>
                 <h2 className="text-base font-semibold text-white mb-0.5">
-                  Como Ser um Vendedor da Kiwify
+                  Como se Destacar na Academia em 1 Mês
                 </h2>
                 <p className="text-xs text-gray-500 font-medium">
-                  e Venda Rapidamente
+                  Acesso imediato + Bônus Exclusivo
                 </p>
               </div>
             </div>
